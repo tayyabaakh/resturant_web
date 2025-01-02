@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraveLab</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+
+
+     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Roboto:wght@400;500;700&family=Rubik+Lines&display=swap" rel="stylesheet"> --> -->
+
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><img src="logo.png" class="img"></a>
+        <nav class="navbar">
+            <div class="opt">
+            <a href="Home" class="active">Home</a>
+            <a href="About">About</a>
+            <a href="Menu">Menu</a>
+            <a href="Reservation">Reservation</a>
+            <a href="Contact">Contact</a>
+        </div>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu"></i>
+            <i class="fas fa fa-search"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+    </header>
+    <!-- ---slider section----- -->
+    
+    <section class="home" id="Home">
+        <div class=" swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide slide1">
+                    <div class="content">
+                        <img src="navbar/crown-symbol.png">
+                        <h3>Savour Perfection</h3>
+                        <h1>Enjoy <br>Our Delicious Meal</h1>
+                        <p>Savour exceptional taste at our resturant,<br>where every dish is a culinary masterpiece</p>
+                        <a href="#" class="btn"> order now</a>
+                    </div>
+                    <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+                        <img class="img-fluid" src="hero.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide slide2">
+                    <div class="content">
+                        <img src="navbar/crown-symbol.png">
+                        <h3>delish CraveLab</h3>
+                        <h1>Fresh Food</h1>
+                        <p>Food Resturant</p>
+                        <a href="#" class="btn"> order now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide slide3">
+                    <div class="content">
+                        <img src="navbar/crown-symbol.png">
+                        <h3>We are Open</h3>
+                        <h1>Delight in every Bite</h1>
+                        <p>You will love it!</p>
+                        <a href="#" class="btn"> order now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- ---------about----- -->
+    <section class="container-xxl" id="About">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="resturant.jpeg" alt="">
+                </div>
+                <div class="col">
+                    <h5 class="section-title">ABOUT US</h5>
+                    <h1 class="mb-4">Welcome to <i class="fa fa-utensils text-primary me-2"></i>CRAVE LAB</h1>
+                    <p class="para1">We welcome you to explore our taste of the world, in continental and <br> Chinese
+                        delights and that's even before you get to the variety and <br> excellence, of our barbecue
+                        grill. With warmth service rarely experienced, <br> it is a perfect place of rejoice with
+                        family, to soak in the relaxing decor <br> and with deep desire to revisit for once, in never
+                        enough! Now with our <br> network of four branches across the city of lights, it is possible to
+                        <br> experience the magic, whilst collect the best of memories much more <br> close to home.</p>
+                    <p class="para2">Now you can have the goodness of CraveLab delivered at home by just <br> ringing us
+                        a bell. Call 111-666-111 for more information.</p>
+                    <div class="flex-counter">
+                        <div>
+                            <div class="flex">
+                                <!-- <span></span> -->
+                                <h2 class="counter-value" data-target="15">0</h2>
+                                <h4>
+                                    Years of <br>
+                                    <span>EXPERIENCE</span>
+                            </div>
+                            <div class="flex">
+                                <!-- <span></span> -->
+                                <h2 class="counter-value" data-target="50">0</h2>
+                                <h4>
+                                    Popular <br>
+                                    <span>MASTER CHEFS</span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <button>READ MORE</button> -->
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ---------------menu--------- -->
+<section class="main" id="Menu">
+    <div class="menu">
+ <div class="heading">
+   <h1>CRAVE LAB</h1>
+   <h3>&mdash;MENU &mdash;</h3>
+ </div>
+ <div class="food-items">
+    <img src="american-shrimp-fried-rice-served-with-chili-fish-sauce-thai-food.jpg">
+    <div class="details">
+     <div class="details-sub">
+        <h5>American Shrimp Fried Rice served with chili fish sauce</h5>
+        <h5 class="price">$5</h5>
+     </div>
+     <p>Succulent shrimp, crisp veggies, and fluffy rice come together in a wok-kissed masterpiece</p>
+     <button>Add To Cart</button>
+    </div>
+ </div>
+ <div class="food-items">
+    <img src="fried-fish-carp-fresh-vegetable-salad.jpg">
+    <div class="details">
+     <div class="details-sub">
+        <h5>Fried Fish with fresh vegetable salad</h5>
+        <h5 class="price">$5</h5>
+     </div>
+     <p>a tantalizing medley of fresh fish fillets, delicately coated in a golden blend of all-purpose flour, crispy cornmeal, and a secret mix of savory seasonings</p>
+     <button>Add To Cart</button>
+    </div>
+ </div>
+ <div class="food-items">
+    <img src="Gourmet italian bolognese pasta.jpg">
+    <div class="details">
+     <div class="details-sub">
+        <h5>Italian Bolognese Pasta</h5>
+        <h5 class="price">$5</h5>
+     </div>
+     <p>rich medley of savory tomato sauce, aromatic herbs, and freshly grated Parmesan</p>
+     <button>Add To Cart</button>
+    </div>
+ </div>
+ <div class="food-items">
+    <img src="grilled-beef-steak.jpg">
+    <div class="details">
+     <div class="details-sub">
+        <h5>Grilled Beef Steak</h5>
+        <h5 class="price">$5</h5>
+     </div>
+     <p>Prime beef cuts, generously seasoned with a symphony of herbs and spices, seared to juicy perfection</p>
+     <button>Add To Cart</button>
+    </div>
+ </div>
+ <div class="food-items">
+    <img src="grilled-sandwich-with-bacon-fried-egg-tomato-lettuce-served-wooden-cutting-board.jpg">
+    <div class="details">
+     <div class="details-sub">
+        <h5>Grilled Sandwich with bacon fried egg tomato lettuce</h5>
+        <h5 class="price">$5</h5>
+     </div>
+     <p> melted cheese, fresh veggies, and our special sauce, all hugged by perfectly toasted bread</p>
+     <button>Add To Cart</button>
+    </div>
+ </div>
+ <div class="food-items">
+    <img src="lentil-cream-soup-with-dill-croutons.jpg">
+    <div class="details">
+     <div class="details-sub">
+        <h5>Lentil Cream Soup</h5>
+        <h5 class="price">$5</h5>
+     </div>
+    <p> a hearty blend of tender lentils, aromatic spices, and wholesome vegetables</p>
+     <button>Add To Cart</button>
+    </div>
+ </div>
+ <div class="food-items">
+    <img src="honey garlic chicken.jpg" style="height: 45rem;">
+    <div class="details">
+     <div class="details-sub">
+        <h5>Honey Garlic Chicken</h5>
+        <h5 class="price">$5</h5>
+     </div>
+     <p> Succulent chicken bites glazed in a harmonious blend of sweet honey and savory garlic, creating a perfect balance of flavors</p>
+     <button>Add To Cart</button>
+    </div>
+ </div>
+ <div class="food-items">
+    <img src="smoky hamburger.jpg" style="height:45rem ;">
+    <div class="details">
+     <div class="details-sub">
+        <h5>Smoky Hamburger</h5>
+        <h5 class="price">$5</h5>
+     </div>
+     <p>perfectly grilled patty, crispy bacon, melted cheddar, and our tantalizing smoky sauce, all in a toasted brioche bun</p>
+     <button>Add To Cart</button>
+    </div>
+ </div>
+ <div class="food-items">
+    <img src="pizza.jpg" style="height: 45rem;">
+    <div class="details">
+     <div class="details-sub">
+        <h5>Italian Pizza</h5>
+        <h5 class="price">$5</h5>
+     </div>
+      <p> A crispy, thin crust topped with vibrant tomato sauce, premium mozzarella, and an array of fresh, handpicked toppings</p>
+     <button>Add To Cart</button>
+    </div>
+ </div>
+</div>
+</section>
+<!-- ------------reservation------- -->
+
+
+
+<section class="reservation" id="Reservation">
+<div class="image">
+
+</div>
+<div class="form">
+    <h1 class="heading">BOOK A TABLE</h1>
+    <center><h3 class="sub-heading">~Check Out Our Places~</h3></center>
+    <form>
+        <div class="form-holder">
+        <div>
+            <select>
+                <option>1 people</option>
+                <option>2 people</option>
+                <option>3 people</option>
+                <option>4 people</option>
+            </select>
+            <input type="text" name="" placeholder="Time">
+            <input type="text" name="" placeholder="Phone">
+        </div>
+        <div>
+            <input type="text" name="" placeholder="Date">
+            <input type="text" name="" placeholder="Name">
+            <input type="email" name="" placeholder="email">
+        </div>
+    </div>
+    <center><a href="#" class="btn">Book Now</a></center>
+    </form>
+
+</div>
+</section>
+<!-- -------footer/contact- -->
+<section class="footer" id="Contact">
+    <img src="logo.png" class="logo">
+    <div class="containerr">
+        <div>
+            <h3>ABOUT US</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+        </div>
+        <div>
+        <h3>GET NEWS & OFFERS</h3>
+        <input type="email" name="" placeholder="enter your email" style="margin-top: 10px;">
+        <ul>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a</li>
+            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a</li>
+            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a</li>
+        </ul>
+    </div>
+<div>
+    <h3>CONTACT US</h3>
+    <span>CraveLab US</span>
+    <span>0345-3354556552</span>
+    <span>cravelab123@gmail.com</span>
+    <span>www.cravelab.com</span>
+</div>
+</div>
+
+</section>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
